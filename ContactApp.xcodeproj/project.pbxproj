@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C6808459218919660076401C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6808458218919660076401C /* AppDelegate.swift */; };
-		C680845B218919660076401C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680845A218919660076401C /* ViewController.swift */; };
 		C680845E218919660076401C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C680845C218919660076401C /* Main.storyboard */; };
 		C6808461218919660076401C /* ContactApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C680845F218919660076401C /* ContactApp.xcdatamodeld */; };
 		C6808463218919670076401C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6808462218919670076401C /* Assets.xcassets */; };
@@ -17,6 +16,8 @@
 		C680847C218919670076401C /* ContactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680847B218919670076401C /* ContactAppUITests.swift */; };
 		C680848B21891AC20076401C /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680848921891AC20076401C /* Contact+CoreDataClass.swift */; };
 		C680848C21891AC20076401C /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680848A21891AC20076401C /* Contact+CoreDataProperties.swift */; };
+		C680848E21891ED80076401C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680848D21891ED80076401C /* ContactsViewController.swift */; };
+		C680849021891EE90076401C /* SingleContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680848F21891EE90076401C /* SingleContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		C6808455218919660076401C /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6808458218919660076401C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C680845A218919660076401C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C680845D218919660076401C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6808460218919660076401C /* ContactApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactApp.xcdatamodel; sourceTree = "<group>"; };
 		C6808462218919670076401C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		C680847D218919670076401C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C680848921891AC20076401C /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
 		C680848A21891AC20076401C /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C680848D21891ED80076401C /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		C680848F21891EE90076401C /* SingleContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,12 +108,13 @@
 				C680848921891AC20076401C /* Contact+CoreDataClass.swift */,
 				C680848A21891AC20076401C /* Contact+CoreDataProperties.swift */,
 				C6808458218919660076401C /* AppDelegate.swift */,
-				C680845A218919660076401C /* ViewController.swift */,
 				C680845C218919660076401C /* Main.storyboard */,
 				C6808462218919670076401C /* Assets.xcassets */,
 				C6808464218919670076401C /* LaunchScreen.storyboard */,
 				C6808467218919670076401C /* Info.plist */,
 				C680845F218919660076401C /* ContactApp.xcdatamodeld */,
+				C680848D21891ED80076401C /* ContactsViewController.swift */,
+				C680848F21891EE90076401C /* SingleContactViewController.swift */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
@@ -266,10 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6808461218919660076401C /* ContactApp.xcdatamodeld in Sources */,
-				C680845B218919660076401C /* ViewController.swift in Sources */,
+				C680849021891EE90076401C /* SingleContactViewController.swift in Sources */,
 				C680848B21891AC20076401C /* Contact+CoreDataClass.swift in Sources */,
 				C680848C21891AC20076401C /* Contact+CoreDataProperties.swift in Sources */,
 				C6808459218919660076401C /* AppDelegate.swift in Sources */,
+				C680848E21891ED80076401C /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
